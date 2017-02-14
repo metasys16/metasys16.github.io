@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>table</title>
+    </head>
+    <body>
+    <h1>Balise &lt; table &gt;</h1>
+    <a href="../index.html">Accueil</a>
+    <h2>Définition</h2>
+    <p>L'élément HTML &lt;table&gt; permet de représenter un tableau de données, c'est-à-dire des informations exprimées sur un tableau en deux dimensions.</p>
+    <h3>Contenu autorisé</h3>
+    <p>Dans cet ordre :</p>
+    <ul>
+        <li>Un élément facultatif &lt;caption&gt;</li>
+        <li>Zéro ou plusieurs éléments &lt;colgroup&gt;</li>
+        <li>Un élément &lt;thead&gt; facultatifs, suivi(s) au choix par :</li>
+        <ul>
+            <li>un élément &lt;tfoot&gt; suivi par zéro ou plusieurs éléments&lt;tbody&gt; ou un ou plusieurs éléments &lt;tr&gt;</li>
+            <li>ou par un élément  &lt;tfoot&gt; facultatif, zéro ou plusieurs éléments &lt;tbody&gt; ou un ou plusieurs éléments &lt;tr&gt;</li>
+        </ul>
+    </ul>
+    <h2>Exemple (avec balise &lt;pre&gt;)</h2>
+    <pre>
+        &lt;table&gt;
+          &lt;thead&gt;
+            &lt;tr&gt;
+              &lt;th&gt;Nom&lt;/th&gt;
+              &lt;th&gt;Prénom&lt;/th&gt;
+              &lt;th&gt;HTML&lt;/th&gt;
+              &lt;th&gt;CSS&lt;/th&gt;
+              &lt;th&gt;PHP&lt;/th&gt;
+              &lt;th&gt;JS&lt;/th&gt;
+            &lt;/tr&gt;
+          &lt;/thead&gt;
+          &lt;tfoot&gt;
+            &lt;tr&gt;
+              &lt;td colspan="2"&gt;Total&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tfoot&gt;
+          &lt;tbody&gt;
+            &lt;tr&gt;
+              &lt;td&gt;Jean&lt;/td&gt;
+              &lt;td&gt;Mouloud&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+              &lt;td&gt;1&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;tr&gt;
+              &lt;td&gt;David&lt;/td&gt;
+              &lt;td&gt;Copperfield&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+              &lt;td&gt;0&lt;/td&gt;
+            &lt;/tr&gt;
+          &lt;/tbody&gt;
+        &lt;/table&gt;
+    </pre>
+    <table>
+        <thead>
+        <tr>
+            <th>Nom</th>
+            <th>Prénom</th>
+            <th>HTML</th>
+            <th>CSS</th>
+            <th>PHP</th>
+            <th>JS</th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+            <td colspan="2">Total</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        </tfoot>
+        <tbody>
+        <tr>
+            <td>Jean</td>
+            <td>Mouloud</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>David</td>
+            <td>Copperfield</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+        </tr>
+        </tbody>
+    </table>
+</body>
+</html>
