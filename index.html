@@ -24,6 +24,7 @@
           <li><a href="pages/liste.html">liste</a></li>
           <li><a href="pages/img.html">image</a></li>
           <li><a href="pages/table.html">tableau</a></li>
+          <li><a href="pages/semantique.html">balises sémantiques</a></li>
         </ul>
       </nav>
       <details id="detail_HTML5">
@@ -35,6 +36,27 @@
     <aside id="aside_info_du_jour">
       <h1>La saint-Valentin</h1>
       <p>La fête des amoureux à lieu aujourd'hui, le <time datetime="2017-02-14T00:00">14 février !</time></p>
+      <form action="index.html" method="post">
+       <h2>Inscription</h2>
+        <p><label>Nom : <input type="text" name="nom" required/></label></p>
+        <p><label>Prénom : <input type="text" name="prenom" required/></label></p>
+        <fieldset>
+          <legend>Civilité</legend>
+          <input type="radio" name="civilite" id="civilite_mr"> <label for="civilite_mr">Monsieur</label>
+          <input type="radio" name="civilite" id="civilite_mme"> <label for="civilite_mme">Madame</label>
+        </fieldset>
+        <p><label>Mail : <input type="email" name="mail" required/></label></p>
+        <p>
+          <label>Couleur(s) préférée(s) :
+            <select name="preference_couleur">
+              <option value="bleu">Bleu</option>
+              <option value="vert" selected>Vert</option>
+              <option value="jaune">Jaune</option>
+            </select>
+          </label>
+        </p>
+        <p><button type="submit">OK</button><button type="reset">RESET</button>  </p>
+      </form>
     </aside>
   </body>
 </html>
